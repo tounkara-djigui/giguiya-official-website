@@ -1,0 +1,19 @@
+<section class="section-container">
+  <section *ngFor="let ml of maliba" class="section-content">
+    <h1 class="project-title">{{ ml.NomeProgetto }}</h1>
+    <p class="project-subtitle">Uno sportello di ascolto, accompagnamento e orientamento</p>
+
+    <div class="project-info">
+      <h2>Nasce:</h2>
+      <p>{{ ml.nasce }}</p>
+    </div>
+
+    <div class="project-description">
+      <h2>Descrizione</h2>
+      <p>{{ ml.des }}</p>
+      <a [href]="ml.link" class="more-info-link" target="_blank" rel="noopener">
+        → Per sapere di più
+      </a>
+    </div>
+  </section>
+</section>

@@ -1,0 +1,218 @@
+
+.activities-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.activity-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 0.6s ease-out;
+}
+
+.activity-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.titolo {
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+    background: linear-gradient(135deg, rgba(44, 62, 80, 0.9), rgba(52, 73, 94, 0.9));
+    position: relative;
+    overflow: hidden;
+}
+
+.titolo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 L100,0 L100,100 Z" fill="rgba(255,255,255,0.05)"/></svg>');
+    background-size: 100% 100%;
+}
+
+.titolo h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.titolo h5 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+    color: #aaff00;
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0;
+}
+
+.content-box {
+    padding: 25px;
+    border-right: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-box:last-child {
+    border-right: none;
+}
+
+.content-box h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content-box h3 i {
+    font-size: 1.6rem;
+}
+
+.content-box p {
+    flex-grow: 1;
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Stili specifici per ogni box */
+.introduzione {
+    background-color: #f8f9fa;
+}
+
+.introduzione:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.introduzione:hover h3,
+.introduzione:hover p {
+    color: white;
+}
+
+.descrizione {
+    background-color: #f8f9fa;
+}
+
+.descrizione:hover {
+    background-color: #94336f;
+    color: white;
+}
+
+.descrizione:hover h3,
+.descrizione:hover p {
+    color: white;
+}
+
+.partecipazione_risultati {
+    background-color: #f8f9fa;
+}
+
+.partecipazione_risultati:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.partecipazione_risultati:hover h3,
+.partecipazione_risultati:hover p {
+    color: white;
+}
+
+.obiettivi {
+    background-color: #f8f9fa;
+}
+
+.obiettivi:hover {
+    background-color: #DA8C1E;
+    color: white;
+}
+
+.obiettivi:hover h3,
+.obiettivi:hover p {
+    color: white;
+}
+
+.unisciti {
+    background-color: #f8f9fa;
+}
+
+.unisciti:hover {
+    background-color: #A7266F;
+    color: white;
+}
+
+.unisciti:hover h3,
+.unisciti:hover p {
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #1a252f;
+}
+
+/* Rimuovere i bordi su dispositivi mobili */
+@media (max-width: 992px) {
+    .section-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .content-box {
+        border-right: none;
+    }
+}
+
+/* Animazione di apparizione */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    background-image: url("/assets/sqImg/squadra2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}

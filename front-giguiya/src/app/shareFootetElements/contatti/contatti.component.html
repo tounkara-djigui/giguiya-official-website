@@ -1,0 +1,23 @@
+<div class="contatti-container">
+    <h1 class="contatti-title">Contatti</h1>
+    
+    <div class="contatto-item">
+      <a [href]="'mailto:' + contattiData.email" class="contatto-link">
+        <i class="fas fa-envelope"></i>
+        <span>{{ contattiData.email }}</span>
+      </a>
+    </div>
+  
+    <div class="contatto-item">
+      <a [href]="'tel:' + contattiData.telefono" class="contatto-link">
+        <i class="fas fa-phone-alt"></i>
+        <span>{{ contattiData.telefono }}</span>
+      </a>
+    </div>
+  
+    <div class="contatto-item">
+      <i class="fas fa-map-marker-alt"></i>
+      <span class="contatto-text">{{ contattiData.indirizzo }}</span>
+    </div>
+    
+  </div>

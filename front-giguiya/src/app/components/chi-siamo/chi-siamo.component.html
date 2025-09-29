@@ -1,0 +1,33 @@
+<section class="about-section">
+   <div class="container">
+     <h1 class="association-name">ASPCMT - GIGUIYA</h1>
+     <p class="subtitle">Associazione per la Solidarietà e la Promozione della Cultura del Mali di Torino</p>
+ 
+     <div class="mission-section">
+       <h2>La Nostra Missione</h2>
+       <ul class="mission-list">
+         <li *ngFor="let item of missionItems">{{ item }}</li>
+       </ul>
+     </div>
+ 
+     <div class="activities-section">
+       <h2>Attività Principali</h2>
+       <div class="grid-container">
+         <div class="activity-card" *ngFor="let activity of activities">
+           <h3>{{ activity.title }}</h3>
+           <p>{{ activity.description }}</p>
+         </div>
+       </div>
+     </div>
+ 
+     <div class="organization-section">
+       <h2>Organizzazione</h2>
+       <div class="org-structure">
+         <div class="org-item" *ngFor="let org of organization">
+           <h3>{{ org.title }}</h3>
+           <p>{{ org.details }}</p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>

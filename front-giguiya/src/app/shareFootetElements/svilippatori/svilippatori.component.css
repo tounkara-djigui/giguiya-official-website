@@ -1,0 +1,10 @@
+.sv-container{
+min-width: 200px; 
+border-left:4px solid gray;
+padding-left:20px; 
+
+}
+a{
+    font-size:28px; 
+    color: white;
+}

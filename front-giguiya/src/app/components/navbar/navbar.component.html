@@ -1,0 +1,51 @@
+
+<mat-toolbar color="primary" class="toolbar"  >
+  <section class="container-fluid"> 
+    <nav class="navbar navbar-expand-lg navbar-dark w-100 p-0"> 
+			<a class="navbar-brand d-flex align-items-center " routerLink="/" >
+			<img src="assets/logo.jpeg" alt="logo associazione" class="logo-img me-2" >
+			</a>
+
+       <a class="chiSiamo" routerLink="/chiSiamo"> <button>Chi Siamo</button></a>
+	    <a *ngIf="authService.isAuthenticated()" class="dashboard" routerLink="/dashboard"> <button>Dashboard</button></a>
+				<!--Humburger menu-->
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMaterial" aria-controls="navbarMaterial" aria-expanded="false" aria-label="toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!--sezione colapsabie-->
+			<section class="collapse navbar-collapse justify-content-end" id="navbarMaterial">
+				<ul class="navbar-nav " >
+					<!--Accesso-->
+					<li class="nav-item dropdown">
+						<button mat-button [matMenuTriggerFor]="accessoMenu"><mat-icon>person</mat-icon>Accesso</button>
+					</li>
+					<!--Eventi-->
+					<li class="nav-item dropdown" >
+						<button mat-button [matMenuTriggerFor]="eventiMenu"><mat-icon>event</mat-icon>Eventi</button>
+					</li>
+          	<li class="nav-item dropdown" >
+						<button mat-button [matMenuTriggerFor]="progettiMenu"><mat-icon>work</mat-icon>Progetti</button>
+					</li>
+				</ul>
+			</section>
+		</nav>
+	</section>
+<!--Eventi-->
+
+<mat-menu #eventiMenu="matMenu">
+<button mat-menu-item routerLink="/eventi"><mat-icon class="icon">history</mat-icon>Eventi passati</button>
+<button mat-menu-item routerLink="/event"><mat-icon class="icon">event_available</mat-icon>prossimi Eventi</button>
+</mat-menu>
+<!--progetti-->
+
+<mat-menu #progettiMenu="matMenu">
+<button mat-menu-item routerLink="/sport"><mat-icon class="icon">work</mat-icon>Sport</button>
+<button mat-menu-item routerLink="/badegna"><mat-icon class="icon">work</mat-icon>Maliba</button>
+</mat-menu>
+<!--Partner-->
+<mat-menu #accessoMenu="matMenu">
+<button mat-menu-item routerLink="/#"><mat-icon class="icon">person</mat-icon >Login</button>
+<button mat-menu-item routerLink="/#"><mat-icon class="icon">person_add</mat-icon>Registrazione</button>
+</mat-menu>
+
+</mat-toolbar>

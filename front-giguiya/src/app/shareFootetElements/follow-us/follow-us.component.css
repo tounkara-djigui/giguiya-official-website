@@ -1,0 +1,61 @@
+.follow-us-container {
+    font-family: 'Arial', sans-serif;
+  
+    .follow-us-title {
+      color: #2c3e50;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+  
+      .social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        color: white;
+        font-size: 1.2rem;
+        transition: transform 0.3s, opacity 0.3s;
+  
+        &:hover {
+          transform: translateY(-3px);
+          opacity: 0.9;
+        }
+  
+        &.facebook {
+          background-color: #3b5998;
+        }
+  
+        &.twitter {
+          background-color: #1da1f2;
+        }
+  
+        &.instagram {
+          background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+        }
+  
+        &.linkedin {
+          background-color: #0077b5;
+        }
+      }
+    }
+  
+    .follow-text {
+      color: #7f8c8d;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+  
+    @media (max-width: 768px) {
+      .social-links {
+        justify-content: center;
+      }
+    }
+  }
