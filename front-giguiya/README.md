@@ -1,59 +1,59 @@
-# LetionDeep
+# 🌐 Giguiya - Official Business Website
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+[![Live Demo](https://img.shields.io/badge/Live_Demo-giguiya.it-brightgreen?style=for-the-badge)](https://giguiya.it)  
+[![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)](https://giguiya.it)  
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)  
 
-## Development server
+Un sito web aziendale moderno e professionale sviluppato con **Angular** e tecnologie enterprise.
 
-To start a local development server, run:
+---
+
+##  Caratteristiche principali
+
+- **Design moderno** – UI pulita e professionale con Angular Material  
+- **Completamente responsive** – Ottimizzato per mobile, tablet e desktop (Bootstrap 5)  
+- **Alte prestazioni** – SEO e caricamento ottimizzato  
+- **Architettura enterprise** – Basata su Angular per scalabilità e manutenibilità  
+- **Codice strutturato** – Componenti organizzati secondo best practice  
+
+---
+
+##  Tech Stack
+
+### **Frontend**
+- Framework: **Angular 16+**
+- UI: **Angular Material**
+- Styling: **Bootstrap 5 + CSS custom**
+- Linguaggio: **TypeScript**
+- State management / async: **RxJS**
+
+### **Deployment & Hosting**
+- Hosting: **Aruba Business Hosting**
+- Dominio: **giguiya.it**
+- Pannello: **Plesk Control Panel**
+- SSL: **Certificato HTTPS attivo**
+
+### **Strumenti di sviluppo**
+- IDE: **Visual Studio Code**
+- Version control: **Git & GitHub**
+
+---
+
+##  Obiettivi raggiunti
+
+- ✅ Design professionale con Angular Material  
+- ✅ Layout responsive con Bootstrap Grid System  
+- ✅ Architettura scalabile e manutenibile  
+- ✅ Performance ottimizzate per produzione  
+- ✅ Deployment stabile su Aruba Business  
+
+---
+
+##  Installazione & Sviluppo
+
+Clona il repository e installa le dipendenze:  
 
 ```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+git clone https://github.com/tounkara-djigui/giguiya-website.git
+cd giguiya-website
+npm install
