@@ -44,7 +44,7 @@ Thumbs.db
 Environment
 /src/environments/environment.ts
 /src/environments/environment1.ts
-/src/environment/credenzialDefaull.ts
-/src/environment/credenziali.ts
+/src/environment/environment2.ts
+/src/environment/environment3.ts
 /src/environment/prod.ts
 
