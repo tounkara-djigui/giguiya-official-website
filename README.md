@@ -1,4 +1,4 @@
-# 🌍 Giguiya - Sito ufficiale dell’Associazione
+# Giguiya - Sito ufficiale dell’Associazione
 
 Benvenuto nel repository ufficiale del sito web **giguiya.it**, il portale dell’Associazione Giguiya.  
 Il progetto nasce per offrire uno spazio digitale moderno e accessibile per:
