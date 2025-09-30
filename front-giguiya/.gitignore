@@ -42,5 +42,9 @@ testem.log
 Thumbs.db
 # Environment
 Environment
-src/Environment
+/src/environments/environment.ts
+/src/environments/environment1.ts
+/src/environment/credenzialDefaull.ts
+/src/environment/credenziali.ts
+/src/environment/prod.ts
 
