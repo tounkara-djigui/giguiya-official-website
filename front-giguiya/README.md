@@ -1,9 +1,12 @@
 # 🌐 Giguiya - Official Business Website
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-giguiya.it-brightgreen?style=for-the-badge)](https://giguiya.it)  
-[![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)](https://giguiya.it)  
-[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)  
-Il sito [giguiya.it](https://giguiya.it) [Privacy Policy](PRIVACY.md).
+[![Live Demo](https://img.shields.io/badge/Live_Demo-giguiya.it-brightgreen?style=for-the-badge)](https://giguiya.it)
+[![Status](https://img.shields.io/badge/Status-Live-success?style=for-the-badge)](https://giguiya.it)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+[![Privacy Policy](https://img.shields.io/badge/Privacy-Policy-orange?style=for-the-badge)](PRIVACY.md)
+
+Un sito web aziendale moderno e professionale sviluppato con **Angular** e tecnologie enterprise.
+
 
 Un sito web aziendale moderno e professionale sviluppato con **Angular** e tecnologie enterprise.
 
